@@ -1,0 +1,254 @@
+body{
+    padding: 0 90px;
+}
+
+.body-bg{
+    background-image: url(../img/Fundo_Login_Cadastro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.sobrenos-background{
+    background-image: url(../img/sobrenosbackground.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.section_nav{
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+.logo{
+    width: 100px;
+    height: 100px;
+  }
+  
+.logo_header{
+    width: 100px;
+    height: 100px;
+  }
+  
+.centralizar{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+.img_fundo{
+    background-image: url(../IMAGENS/Binario4GIF.gif);
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.section_footer{
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white;
+    color: rgb(22, 96, 233);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+
+.borda_section{
+    border-top: 3px solid rgba(4, 58, 139, 0.603);
+    border-bottom: 3px solid rgba(4, 58, 139, 0.603);
+    border-width: 10px 10px 10px 10px;
+    color: rgb(124, 121, 121);
+  }
+
+  .centralizar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .diminuir_card{
+    height: 220px;
+    min-height:50%;
+    width: 220px;
+    min-width: 50%
+  }
+
+  .section_header{
+    height: 100%;
+    width: 100%;
+  }
+
+  .section_main{
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  .container-fig1, .container-fig2{
+    min-height: 42vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    align-items: end;
+}
+
+.container-fig1{
+   background-image: url(../IMAGENS/VisaBlockFi.avif);
+   border-radius: 20px;
+   border: 3px solid black;
+   color: #ffff;
+   text-shadow: 3px 3px black;
+   filter: brightness(70%);
+}
+
+.container-fig2{
+   background-image: url(../IMAGENS/Ethereum2.jpg);
+   border-radius: 20px;
+   border: 3px solid black;
+   color: #ffff;
+   text-shadow: 3px 3px black;
+   filter: brightness(70%);
+}
+
+.container-fig3, .container-fig4{
+    min-height: 20vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    align-items: end;
+}
+
+.container-fig3{
+    background-image: url(../IMAGENS/MemeCoin_Trump.webp);
+    border-radius: 20px;
+    border: 3px solid black;
+    color: #ffff;
+    text-shadow: 3px 3px black;
+    filter: brightness(70%);
+}
+
+.container-fig4{
+    background-image: url(../IMAGENS/Queda_Bitcoin.jpg);
+    border-radius: 20px;
+    border: 3px solid black;
+    color: #ffff;
+    text-shadow: 3px 3px black;
+    filter: brightness(70%);
+}
+
+.container-fig1:hover{ 
+  filter: brightness(90%);
+  transition: 500ms;
+}
+
+.container-fig2:hover{ 
+  filter: brightness(90%);
+  transition: 500ms;
+}
+
+.container-fig3:hover{ 
+  filter: brightness(90%);
+  transition: 500ms;
+}
+
+.container-fig4:hover{ 
+  filter: brightness(90%);
+  transition: 500ms;
+}
+
+  .texto{
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(50, 51, 53) 2px 2px;
+  }
+
+  .card-img-top{
+    filter: brightness(50%);
+  }
+
+  .card-img-top:hover{
+    transition: 500ms;
+    filter: brightness(100%);
+  }
+
+  .section_main1{
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-image: url(../IMAGENS/Fundo_Nav.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .section_main2{
+    background-image: url(../IMAGENS/Fundo2.webp);
+    color: rgb(230, 162, 18);
+  }
+
+  .section_main4{
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-image: url(../IMAGENS/Teste2.jpg);
+  }
+
+  .imagem_entrevista{
+    height: 25vh;
+    width: 25vh;
+    min-height: 35%;
+    min-width: 35%;
+    max-height: 25vh;
+    max-width: 25vh;
+    border-radius: 50%;
+    border: 4px solid rgb(230, 162, 18);
+  }
+
+  .section_main_artigo{
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #ffff;
+  }
+
+  .section_main1_artigo{
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-image: url(../IMAGENS/Fundo2.webp);
+    color: #ffff;
+
+  }
+
+  .section_main2_artigo{
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #ffff;
+  }
+
+  .section_main3_artigo{
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-image: url(../IMAGENS/Fundo2.webp);
+    color: #ffff;
+  }
+
+  .section_pesquisa_artigo{
+    background-image: url(../IMAGENS/Teste2.jpg);
+    }
+
+  .sombra{
+    box-shadow: rgba(1, 31, 65, 0.37) 8px 8px;
+  }
+
+  .titulo{
+    color: rgb(230, 162, 18);
+    text-shadow: rgb(50, 51, 53) 2px 2px;
+  }
+
+  .imagem{
+    width: 80vh;
+    height: 50vh;
+    min-width: 50%;
+    min-height: 25%;
+  }
+
+  .borda_img{
+    border: 3px solid rgba(4, 58, 139, 0.603);
+    border-width: 10px 10px 10px 10px;
+    color: rgb(124, 121, 121);
+  }
+
+
+
